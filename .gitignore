@@ -31,11 +31,12 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# env files (secrets — never commit)
 .env*
+!.env.example
 
 # MCP config may contain API keys
-.cursor/mcp.json
+.cursor/
 
 # vercel
 .vercel
@@ -43,3 +44,21 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# --- Local / agent-only (not for GitHub) ---
+
+# Agent session memory
+memory.md
+
+# Design references & Stitch exports (large binaries)
+context/designs/
+
+# One-off design generation scripts
+scripts/
+
+# Stitch prompt drafts (design tooling only)
+context/stitch-prompts.md
+
+# Cursor agent skills & lockfile
+.agents/
+skills-lock.json
