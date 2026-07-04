@@ -50,14 +50,11 @@ next-env.d.ts
 # Agent session memory
 memory.md
 
-# Design references & Stitch exports (large binaries)
-context/designs/
+# Project agent docs, designs, and build notes (local only)
+context/
 
 # One-off design generation scripts
 scripts/
-
-# Stitch prompt drafts (design tooling only)
-context/stitch-prompts.md
 
 # Cursor agent skills & lockfile
 .agents/
