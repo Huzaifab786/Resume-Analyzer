@@ -9,8 +9,8 @@ import { Button } from "@/components/ui/button";
 import { duration, easeOut, hoverScale } from "@/lib/motion";
 
 const sectionLinks = [
-  { label: "Features", href: "#features" },
-  { label: "How it Works", href: "#how-it-works" },
+  { label: "Features", href: "/#features" },
+  { label: "How it Works", href: "/#how-it-works" },
 ] as const;
 
 export function Navbar() {
